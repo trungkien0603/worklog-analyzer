@@ -1,27 +1,19 @@
 ﻿# Python
 __pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.egg-info/
-*.egg
+*.pyc
 
 # Virtual env
 .venv/
-venv/
-env/
+
+# PyInstaller / build
+build/
+dist/
+Output/
 
 # IDE
 .vscode/
 .idea/
 
-# Build artifacts
-build/
-dist/
-*.spec
-Output/
-*.log
-
-# OS junk
+# OS
 .DS_Store
 Thumbs.db
